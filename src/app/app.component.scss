@@ -1,0 +1,20 @@
+:host {
+  height: 100%;
+}
+
+.app-container {
+  height: 100%;
+  overflow: auto;
+}
+
+mat-drawer-container {
+  overflow: auto;
+
+  mat-drawer {
+    width: 200px;
+  }
+
+  mat-drawer-content {
+    overflow: auto;
+  }
+}

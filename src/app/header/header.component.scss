@@ -1,0 +1,17 @@
+mat-toolbar {
+  min-height: 64px;
+}
+
+.header-link {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 32px;
+  -webkit-user-drag: none;
+  &:hover {
+    color: white;
+  }
+  @media only screen and (max-width: 600px) {
+    font-size: 24px;
+  }
+}
