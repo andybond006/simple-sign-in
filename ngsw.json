@@ -1,0 +1,82 @@
+{
+  "configVersion": 1,
+  "timestamp": 1582168795035,
+  "index": "/simple-sign-in/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/simple-sign-in/favicon.ico",
+        "/simple-sign-in/index.html",
+        "/simple-sign-in/main-es2015.367a18b627ed3e78dfee.js",
+        "/simple-sign-in/main-es5.367a18b627ed3e78dfee.js",
+        "/simple-sign-in/manifest.webmanifest",
+        "/simple-sign-in/polyfills-es2015.ca64e4516afbb1b890d5.js",
+        "/simple-sign-in/polyfills-es5.277e2e1d6fb2daf91a5c.js",
+        "/simple-sign-in/runtime-es2015.0811dcefd377500b5b1a.js",
+        "/simple-sign-in/runtime-es5.0811dcefd377500b5b1a.js",
+        "/simple-sign-in/styles.a4074d94f75fe96ed784.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/simple-sign-in/assets/icons/icon-128x128.png",
+        "/simple-sign-in/assets/icons/icon-144x144.png",
+        "/simple-sign-in/assets/icons/icon-152x152.png",
+        "/simple-sign-in/assets/icons/icon-192x192.png",
+        "/simple-sign-in/assets/icons/icon-384x384.png",
+        "/simple-sign-in/assets/icons/icon-512x512.png",
+        "/simple-sign-in/assets/icons/icon-72x72.png",
+        "/simple-sign-in/assets/icons/icon-96x96.png",
+        "/simple-sign-in/assets/mdi.svg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/simple-sign-in/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/simple-sign-in/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/simple-sign-in/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/simple-sign-in/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/simple-sign-in/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/simple-sign-in/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/simple-sign-in/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/simple-sign-in/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/simple-sign-in/assets/mdi.svg": "0815225096b01ac2fb4bc7b00ab9351ea1b24d0e",
+    "/simple-sign-in/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/simple-sign-in/index.html": "3799646bfcfc06c008126102eb486319d48431e7",
+    "/simple-sign-in/main-es2015.367a18b627ed3e78dfee.js": "2741933308349cd7ea8902dee533e7008fcb962b",
+    "/simple-sign-in/main-es5.367a18b627ed3e78dfee.js": "3b70e70beb3cd917f28ac6a1685c3f35af09a50f",
+    "/simple-sign-in/manifest.webmanifest": "8314a8f8ed1ce27cdd45916f0eac2633ff3ffc92",
+    "/simple-sign-in/polyfills-es2015.ca64e4516afbb1b890d5.js": "8779ed8d9bf0580e1b50b352a9b8fd520be24433",
+    "/simple-sign-in/polyfills-es5.277e2e1d6fb2daf91a5c.js": "8d03638471d7374e81cf33adfdea439f84ac3873",
+    "/simple-sign-in/runtime-es2015.0811dcefd377500b5b1a.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/simple-sign-in/runtime-es5.0811dcefd377500b5b1a.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/simple-sign-in/styles.a4074d94f75fe96ed784.css": "791362f88e224c092724f33e0da7ca896a61b3e8"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
