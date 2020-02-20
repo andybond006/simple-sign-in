@@ -6,6 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "pwa": "ng build --prod && cd dist && http-server -p 8080 && cd ..",
+    "deploy": "ng deploy --base-href=/simple-sign-in/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
