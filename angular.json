@@ -154,6 +154,10 @@
               "devServerTarget": "simple-sign-in:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
     }
