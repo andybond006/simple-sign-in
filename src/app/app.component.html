@@ -5,7 +5,8 @@
       <p>Drawer Content...</p>
     </mat-drawer>
     <mat-drawer-content>
-      <router-outlet></router-outlet>
+      <!-- <router-outlet></router-outlet> -->
+      <p *ngFor="let i of indexes">Paragraph - {{i}}</p>
     </mat-drawer-content>
   </mat-drawer-container>
 </div>

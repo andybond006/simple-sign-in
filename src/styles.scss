@@ -8,9 +8,15 @@ $warn: mat-palette($mat-red);
 
 // Theme
 $light-theme: mat-light-theme($primary, $accent, $warn);
+$dark-theme: mat-dark-theme($primary, $accent, $warn);
 
-// Instantiate
+// Set Default Theme
 @include angular-material-theme($light-theme);
+
+// Set Dark Theme if Device Preference
+@media (prefers-color-scheme: dark) {
+  @include angular-material-theme($dark-theme);
+}
 
 // Styles
 :root {
@@ -19,12 +25,18 @@ $light-theme: mat-light-theme($primary, $accent, $warn);
   --color-warn: #{mat-color($warn)};
 }
 
-html,
-body {
+html {
+  overflow: hidden;
+  position: fixed;
   height: 100%;
+  width: 100%;
 }
 
 body {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  overflow: auto;
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
