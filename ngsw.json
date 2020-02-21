@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1582247348752,
+  "timestamp": 1582248245506,
   "index": "/simple-sign-in/index.html",
   "assetGroups": [
     {
@@ -17,7 +17,7 @@
         "/simple-sign-in/polyfills-es5.277e2e1d6fb2daf91a5c.js",
         "/simple-sign-in/runtime-es2015.0811dcefd377500b5b1a.js",
         "/simple-sign-in/runtime-es5.0811dcefd377500b5b1a.js",
-        "/simple-sign-in/styles.a4074d94f75fe96ed784.css"
+        "/simple-sign-in/styles.ee57eb97092bdaed5e52.css"
       ],
       "patterns": []
     },
@@ -75,7 +75,7 @@
     "/simple-sign-in/assets/splashscreens/iphonexr_splash.png": "b15cb33d21d36f62033473f213e2329689965a03",
     "/simple-sign-in/assets/splashscreens/iphonexsmax_splash.png": "0019150f0e6082c8813695a57cb829e44b7b1eef",
     "/simple-sign-in/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/simple-sign-in/index.html": "ad530c43bdd68235b08a13889b2a1daeaf038646",
+    "/simple-sign-in/index.html": "b89c8bedd62c2a65f82193729c2151cddf7450a2",
     "/simple-sign-in/main-es2015.367a18b627ed3e78dfee.js": "2741933308349cd7ea8902dee533e7008fcb962b",
     "/simple-sign-in/main-es5.367a18b627ed3e78dfee.js": "3b70e70beb3cd917f28ac6a1685c3f35af09a50f",
     "/simple-sign-in/manifest.webmanifest": "8ae1c7874f49770867c97c40c30cfa3377c27e1b",
@@ -83,7 +83,7 @@
     "/simple-sign-in/polyfills-es5.277e2e1d6fb2daf91a5c.js": "8d03638471d7374e81cf33adfdea439f84ac3873",
     "/simple-sign-in/runtime-es2015.0811dcefd377500b5b1a.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
     "/simple-sign-in/runtime-es5.0811dcefd377500b5b1a.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/simple-sign-in/styles.a4074d94f75fe96ed784.css": "791362f88e224c092724f33e0da7ca896a61b3e8"
+    "/simple-sign-in/styles.ee57eb97092bdaed5e52.css": "ccee7e469385378cb813355c9e56308a26dbd7df"
   },
   "navigationUrls": [
     {
