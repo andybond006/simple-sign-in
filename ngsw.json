@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1582251903132,
+  "timestamp": 1582252257719,
   "index": "/simple-sign-in/index.html",
   "assetGroups": [
     {
@@ -10,14 +10,14 @@
       "urls": [
         "/simple-sign-in/favicon.ico",
         "/simple-sign-in/index.html",
-        "/simple-sign-in/main-es2015.367a18b627ed3e78dfee.js",
-        "/simple-sign-in/main-es5.367a18b627ed3e78dfee.js",
+        "/simple-sign-in/main-es2015.2b0eceeb4d3c990ac9c5.js",
+        "/simple-sign-in/main-es5.2b0eceeb4d3c990ac9c5.js",
         "/simple-sign-in/manifest.webmanifest",
         "/simple-sign-in/polyfills-es2015.ca64e4516afbb1b890d5.js",
         "/simple-sign-in/polyfills-es5.277e2e1d6fb2daf91a5c.js",
         "/simple-sign-in/runtime-es2015.0811dcefd377500b5b1a.js",
         "/simple-sign-in/runtime-es5.0811dcefd377500b5b1a.js",
-        "/simple-sign-in/styles.7bfa906d0b656594ba7b.css"
+        "/simple-sign-in/styles.9fe38a1be9ceed6cffea.css"
       ],
       "patterns": []
     },
@@ -77,15 +77,15 @@
     "/simple-sign-in/assets/splashscreens/iphonexr_splash.png": "b15cb33d21d36f62033473f213e2329689965a03",
     "/simple-sign-in/assets/splashscreens/iphonexsmax_splash.png": "0019150f0e6082c8813695a57cb829e44b7b1eef",
     "/simple-sign-in/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/simple-sign-in/index.html": "82ad2ddf3316da62ccb3b6028b8dedbffab57df2",
-    "/simple-sign-in/main-es2015.367a18b627ed3e78dfee.js": "2741933308349cd7ea8902dee533e7008fcb962b",
-    "/simple-sign-in/main-es5.367a18b627ed3e78dfee.js": "3b70e70beb3cd917f28ac6a1685c3f35af09a50f",
+    "/simple-sign-in/index.html": "b03a16dcc01d7d65744390c2f9b80424d64b8d76",
+    "/simple-sign-in/main-es2015.2b0eceeb4d3c990ac9c5.js": "ecb8d78b4d14821280cc588f8ba4276641def31b",
+    "/simple-sign-in/main-es5.2b0eceeb4d3c990ac9c5.js": "8da0d4702ab2702bb4241ad94825843bf1f185a7",
     "/simple-sign-in/manifest.webmanifest": "8ae1c7874f49770867c97c40c30cfa3377c27e1b",
     "/simple-sign-in/polyfills-es2015.ca64e4516afbb1b890d5.js": "8779ed8d9bf0580e1b50b352a9b8fd520be24433",
     "/simple-sign-in/polyfills-es5.277e2e1d6fb2daf91a5c.js": "8d03638471d7374e81cf33adfdea439f84ac3873",
     "/simple-sign-in/runtime-es2015.0811dcefd377500b5b1a.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
     "/simple-sign-in/runtime-es5.0811dcefd377500b5b1a.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/simple-sign-in/styles.7bfa906d0b656594ba7b.css": "2805429f985aa7f1c9e95df96e10314c000cd020"
+    "/simple-sign-in/styles.9fe38a1be9ceed6cffea.css": "536072675928abe5c0cab8aff71615b9f3d60179"
   },
   "navigationUrls": [
     {
