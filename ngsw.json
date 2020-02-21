@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1582252257719,
+  "timestamp": 1582252759752,
   "index": "/simple-sign-in/index.html",
   "assetGroups": [
     {
@@ -77,7 +77,7 @@
     "/simple-sign-in/assets/splashscreens/iphonexr_splash.png": "b15cb33d21d36f62033473f213e2329689965a03",
     "/simple-sign-in/assets/splashscreens/iphonexsmax_splash.png": "0019150f0e6082c8813695a57cb829e44b7b1eef",
     "/simple-sign-in/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/simple-sign-in/index.html": "b03a16dcc01d7d65744390c2f9b80424d64b8d76",
+    "/simple-sign-in/index.html": "d996331711af963a8de51c12465e82831d6ac188",
     "/simple-sign-in/main-es2015.2b0eceeb4d3c990ac9c5.js": "ecb8d78b4d14821280cc588f8ba4276641def31b",
     "/simple-sign-in/main-es5.2b0eceeb4d3c990ac9c5.js": "8da0d4702ab2702bb4241ad94825843bf1f185a7",
     "/simple-sign-in/manifest.webmanifest": "8ae1c7874f49770867c97c40c30cfa3377c27e1b",
