@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1582255454359,
+  "timestamp": 1582400027932,
   "index": "/simple-sign-in/index.html",
   "assetGroups": [
     {
@@ -8,16 +8,20 @@
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
+        "/simple-sign-in/5-es2015.487e61077f31cb325bbb.js",
+        "/simple-sign-in/5-es5.487e61077f31cb325bbb.js",
+        "/simple-sign-in/6-es2015.ceca8b6eee2952d03c61.js",
+        "/simple-sign-in/6-es5.ceca8b6eee2952d03c61.js",
         "/simple-sign-in/favicon.ico",
         "/simple-sign-in/index.html",
-        "/simple-sign-in/main-es2015.5d61b118486205d62b71.js",
-        "/simple-sign-in/main-es5.5d61b118486205d62b71.js",
+        "/simple-sign-in/main-es2015.77b36846339e6d9ebdf8.js",
+        "/simple-sign-in/main-es5.77b36846339e6d9ebdf8.js",
         "/simple-sign-in/manifest.webmanifest",
         "/simple-sign-in/polyfills-es2015.ca64e4516afbb1b890d5.js",
         "/simple-sign-in/polyfills-es5.277e2e1d6fb2daf91a5c.js",
-        "/simple-sign-in/runtime-es2015.0811dcefd377500b5b1a.js",
-        "/simple-sign-in/runtime-es5.0811dcefd377500b5b1a.js",
-        "/simple-sign-in/styles.c8af84c8bf3c06fbf734.css"
+        "/simple-sign-in/runtime-es2015.e0a0a4aaa13a7355c870.js",
+        "/simple-sign-in/runtime-es5.e0a0a4aaa13a7355c870.js",
+        "/simple-sign-in/styles.811ef5b07c045e09754f.css"
       ],
       "patterns": []
     },
@@ -54,6 +58,10 @@
   ],
   "dataGroups": [],
   "hashTable": {
+    "/simple-sign-in/5-es2015.487e61077f31cb325bbb.js": "c79c95dcfab4853a952bafd90994e8d3abb0015a",
+    "/simple-sign-in/5-es5.487e61077f31cb325bbb.js": "844bb476685a9b0ee6a97b038d0fab6f2b8a8d31",
+    "/simple-sign-in/6-es2015.ceca8b6eee2952d03c61.js": "ca7136b831fdd3c9fc863042c8bb29e6b67cf9a1",
+    "/simple-sign-in/6-es5.ceca8b6eee2952d03c61.js": "3f6f98e63d4c3f99584e62473468eb860376ed8f",
     "/simple-sign-in/assets/icons/favicon.png": "f0a6ff94ef5ff108864228a69188837777e14e78",
     "/simple-sign-in/assets/icons/icon-128x128.png": "5be0d43d8d01fe81626c2117722087a13fba2db7",
     "/simple-sign-in/assets/icons/icon-144x144.png": "fdc0f703efcdabe8763b0f0b54dd1421794da218",
@@ -77,15 +85,15 @@
     "/simple-sign-in/assets/splashscreens/iphonexr_splash.png": "b15cb33d21d36f62033473f213e2329689965a03",
     "/simple-sign-in/assets/splashscreens/iphonexsmax_splash.png": "0019150f0e6082c8813695a57cb829e44b7b1eef",
     "/simple-sign-in/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/simple-sign-in/index.html": "384b3848f58a50bee6a7e8145e95d078be0dc986",
-    "/simple-sign-in/main-es2015.5d61b118486205d62b71.js": "9dd54fc6a906f488e8e42e5b020a6f05b5445755",
-    "/simple-sign-in/main-es5.5d61b118486205d62b71.js": "9b0761ce113638a59dbe0cfed0c67aba50965681",
+    "/simple-sign-in/index.html": "b676d6e4462ad2aba5758c5d19a21d0b98c4e664",
+    "/simple-sign-in/main-es2015.77b36846339e6d9ebdf8.js": "283ab9086569ec1762678d57037ac82a4b0314e4",
+    "/simple-sign-in/main-es5.77b36846339e6d9ebdf8.js": "9b33b18b68b75707b1c946371a12de418519c48f",
     "/simple-sign-in/manifest.webmanifest": "8ae1c7874f49770867c97c40c30cfa3377c27e1b",
     "/simple-sign-in/polyfills-es2015.ca64e4516afbb1b890d5.js": "8779ed8d9bf0580e1b50b352a9b8fd520be24433",
     "/simple-sign-in/polyfills-es5.277e2e1d6fb2daf91a5c.js": "8d03638471d7374e81cf33adfdea439f84ac3873",
-    "/simple-sign-in/runtime-es2015.0811dcefd377500b5b1a.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/simple-sign-in/runtime-es5.0811dcefd377500b5b1a.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/simple-sign-in/styles.c8af84c8bf3c06fbf734.css": "a49b73b30bd626e85f8f21e32592950cfc89247e"
+    "/simple-sign-in/runtime-es2015.e0a0a4aaa13a7355c870.js": "c30173b95c8efa0b62cfbb32898e2318022715af",
+    "/simple-sign-in/runtime-es5.e0a0a4aaa13a7355c870.js": "0c0e4305814dfae1cb2d1801ceca07ee6db583b0",
+    "/simple-sign-in/styles.811ef5b07c045e09754f.css": "ce1c5d943701555d1bbfe98d283bd932dac7d1b6"
   },
   "navigationUrls": [
     {
