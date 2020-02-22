@@ -2,11 +2,19 @@
   <app-header (sidenav)="snav.toggle()"></app-header>
   <mat-drawer-container fxFlex>
     <mat-drawer #snav mode="over" opened="false">
-      <p>Drawer Content...</p>
+      <mat-nav-list>
+        <a mat-list-item routerLink="events" routerLinkActive="active" class="flex-center">
+          <mat-icon svgIcon="calendar"></mat-icon>
+          <span>Events</span>
+        </a>
+        <a mat-list-item routerLink="settings" routerLinkActive="active">
+          <mat-icon svgIcon="settings"></mat-icon>
+          Settings
+        </a>
+      </mat-nav-list>
     </mat-drawer>
     <mat-drawer-content>
-      <!-- <router-outlet></router-outlet> -->
-      <p *ngFor="let i of indexes">Paragraph - {{i}}</p>
+      <router-outlet></router-outlet>
     </mat-drawer-content>
   </mat-drawer-container>
 </div>

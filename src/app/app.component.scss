@@ -5,7 +5,6 @@
 .app-container {
   height: 100%;
   overflow: hidden;
-  /* -webkit-overflow-scrolling: touch; */
 }
 
 mat-drawer-container {
@@ -17,5 +16,17 @@ mat-drawer-container {
 
   mat-drawer-content {
     overflow: auto;
+  }
+}
+
+mat-nav-list {
+  .active {
+    color: var(--color-accent);
+    background-color: rgba(var(--color-negative), 0.05);
+    box-shadow: inset 4px 0px 0px 0px rgba(var(--color-negative), 0.25);
+  }
+
+  mat-icon {
+    margin-right: 8px;
   }
 }

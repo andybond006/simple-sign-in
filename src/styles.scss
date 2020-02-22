@@ -13,16 +13,21 @@ $dark-theme: mat-dark-theme($primary, $accent, $warn);
 // Set Default Theme
 @include angular-material-theme($light-theme);
 
-// Set Dark Theme if Device Preference
-@media (prefers-color-scheme: dark) {
-  @include angular-material-theme($dark-theme);
-}
-
 // Styles
 :root {
   --color-primary: #{mat-color($primary)};
   --color-accent: #{mat-color($accent)};
   --color-warn: #{mat-color($warn)};
+  --color-negative: 0, 0, 0;
+}
+
+// Set Dark Theme if Device Preference
+@media (prefers-color-scheme: dark) {
+  @include angular-material-theme($dark-theme);
+
+  :root {
+    --color-negative: 255, 255, 255;
+  }
 }
 
 html {
@@ -39,4 +44,51 @@ body {
   overflow: auto;
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+/* Common */
+
+.fullyCenter {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+
+.overflow-container {
+  height: 100%;
+  overflow: auto;
+}
+
+/* ScrollBar */
+
+.scrollbar::-webkit-scrollbar-track {
+  background-color: rgba(128, 128, 128, .5);
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background-color: mat-color($accent);
+}
+
+.scrollbar::-webkit-scrollbar-corner {
+  background-color: #424242;
+}
+
+.scrollbar::-webkit-resizer {
+  background-color: #424242;
+}
+
+/* Mat Dialog */
+
+.custom .mat-dialog-container {
+  padding: 0;
 }

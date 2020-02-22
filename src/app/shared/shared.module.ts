@@ -14,6 +14,7 @@ import { MatMenuModule } from '@angular/material/menu';
 import { MatSelectModule } from '@angular/material/select';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatDialogModule } from '@angular/material/dialog';
+import { MatListModule } from '@angular/material/list';
 
 // import { } from './components';
 // import { } from './pipes';
@@ -37,7 +38,8 @@ import { MatDialogModule } from '@angular/material/dialog';
     MatMenuModule,
     MatSelectModule,
     MatTooltipModule,
-    MatDialogModule
+    MatDialogModule,
+    MatListModule
   ],
   exports: [
     FlexLayoutModule,
@@ -53,7 +55,8 @@ import { MatDialogModule } from '@angular/material/dialog';
     MatMenuModule,
     MatSelectModule,
     MatTooltipModule,
-    MatDialogModule
+    MatDialogModule,
+    MatListModule
   ]
 })
 export class SharedModule { }
