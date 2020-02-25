@@ -15,6 +15,7 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatListModule } from '@angular/material/list';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 // import { } from './components';
 // import { } from './pipes';
@@ -39,7 +40,8 @@ import { MatListModule } from '@angular/material/list';
     MatSelectModule,
     MatTooltipModule,
     MatDialogModule,
-    MatListModule
+    MatListModule,
+    MatSnackBarModule
   ],
   exports: [
     FlexLayoutModule,
@@ -56,7 +58,8 @@ import { MatListModule } from '@angular/material/list';
     MatSelectModule,
     MatTooltipModule,
     MatDialogModule,
-    MatListModule
+    MatListModule,
+    MatSnackBarModule
   ]
 })
 export class SharedModule { }

@@ -2,11 +2,16 @@
   <app-header (sidenav)="snav.toggle()"></app-header>
   <mat-drawer-container fxFlex>
     <mat-drawer #snav mode="over" opened="false">
-      <mat-nav-list>
+      <mat-nav-list style="height: 100%;" fxLayout="column">
         <a mat-list-item routerLink="events" routerLinkActive="active" class="flex-center">
           <mat-icon svgIcon="calendar"></mat-icon>
           <span>Events</span>
         </a>
+        <a mat-list-item routerLink="participants" routerLinkActive="active">
+          <mat-icon svgIcon="account-group"></mat-icon>
+          Participants
+        </a>
+        <div fxFlex></div>
         <a mat-list-item routerLink="settings" routerLinkActive="active">
           <mat-icon svgIcon="settings"></mat-icon>
           Settings
